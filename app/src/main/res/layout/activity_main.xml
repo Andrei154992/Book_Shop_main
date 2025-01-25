@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C21A2F3"
+    tools:context=".Users.MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/book"/>
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_logo"
+        android:layout_centerHorizontal="true"
+        android:text="Ищи нужные книги в своём городе"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_1"
+        app:backgroundTint="@null"
+        android:padding="20dp"
+        android:text="Войти"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/main_join_btn_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_design"
+        app:backgroundTint="@null"
+        android:padding="20dp"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/mmm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_1"
+        app:backgroundTint="@null"
+        android:padding="20dp"
+        android:text="Выйти"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/app_slogan"
+        android:layout_marginTop="140dp"
+        android:visibility="visible"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>

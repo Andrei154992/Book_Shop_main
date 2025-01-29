@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".User_Interface.Login_Activity">
 
+
     <ImageView
         android:id="@+id/app_logo"
         android:layout_width="300dp"
@@ -135,7 +136,5 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"
         />
-
-
 
 </RelativeLayout>

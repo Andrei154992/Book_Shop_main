@@ -79,7 +79,7 @@
         android:textColor="@color/white"
         android:layout_below="@+id/app_slogan"
         android:layout_marginTop="140dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:textAllCaps="false"
         />
 

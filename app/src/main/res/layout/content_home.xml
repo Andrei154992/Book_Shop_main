@@ -7,10 +7,23 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_home">
 
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Книги в наличии"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:gravity="fill_vertical"
+
+        />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_menu"
+        android:layout_below="@+id/genre"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="vertical" />
+        android:scrollbars="horizontal" />
 
 </RelativeLayout>

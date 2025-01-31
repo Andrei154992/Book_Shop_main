@@ -29,7 +29,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"
-        android:hint="Номер телефона"
+        android:hint="Адрес электронной почты"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textAlignment="center"
@@ -63,7 +63,7 @@
         android:layout_marginTop="15dp"
         android:layout_below="@id/login_password_input">
 
-        <com.rey.material.widget.CheckBox
+        <!--<com.rey.material.widget.CheckBox
             android:id="@+id/login_checkbox"
             style="@style/Material.Drawable.CheckBox"
             android:layout_width="wrap_content"
@@ -77,7 +77,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
 
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck" />-->
 
         <TextView
             android:id="@+id/forget_password_link"
@@ -108,6 +108,7 @@
         android:textAllCaps="false"
         android:textSize="25sp"
         android:textColor="@color/white"
+        android:gravity="center"
         />
 
     <TextView

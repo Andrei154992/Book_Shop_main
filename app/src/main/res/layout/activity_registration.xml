@@ -45,7 +45,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"
-        android:hint="Номер телефона"
+        android:hint="Адрес электронной почты"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textAlignment="center"

@@ -2,19 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#9C21A2F3"
     tools:context=".Admin.Nav_Activity">
-
-
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/layout"
-        />
 
     <RelativeLayout
         android:id="@+id/layout"
@@ -23,7 +15,7 @@
         >
 
         <ImageButton
-            android:id="@+id/back_btn"
+            android:id="@+id/back_btn1"
             android:background="@drawable/arrow_left"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="15dp"
@@ -42,8 +34,23 @@
             android:textSize="25sp"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="0dp"
-
             />
+
+        <ImageButton
+            android:id="@+id/delete_btn1"
+            android:layout_width="39dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/garbage" />
+
     </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout"
+        />
     
 </RelativeLayout>

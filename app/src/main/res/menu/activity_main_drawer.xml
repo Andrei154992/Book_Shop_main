@@ -7,9 +7,10 @@
         <item
             android:id="@+id/nav_categories"
             android:icon="@drawable/category"
-            android:title="Категории"
+            android:title="Товары"
             android:iconTint="@color/white"
             />
+
         <item
             android:id="@+id/nav_cart"
             android:icon="@drawable/nav_cart"
@@ -17,11 +18,14 @@
             android:iconTint="@color/white"
             />
 
+
+
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
             android:title="Выход"
             android:iconTint="@color/white"
             />
+
     </group>
 </menu>

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main2"
     android:background="#9C21A2F3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +13,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/book"
+        android:src="@drawable/books"
         android:layout_marginTop="150dp"
         />
 
@@ -33,7 +33,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="25sp"
-        />
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/register_phone_input"
@@ -51,7 +51,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="25sp"
-        />
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/register_password_input"
@@ -69,7 +69,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="25sp"
-        />
+        tools:ignore="VisualLintTextFieldSize" />
 
 
     <Button
@@ -87,7 +87,7 @@
         android:textAllCaps="false"
         android:textSize="25sp"
         android:textColor="@color/white"
-        />
+        tools:ignore="VisualLintButtonSize" />
 
 
 </RelativeLayout>
